@@ -7,7 +7,7 @@
 	
 	<listener>
 	    <listener-class>
-	        com.vibrant.jobmanager.listener.CommonContextListener
+	        com.fdu201.jobmanager.listener.CommonContextListener
 	    </listener-class>
 	</listener>
 </web-app>

@@ -28,7 +28,8 @@ public class DailyExecutor {
 			@Override
 			public void run() {
 				try {
-					task.execute();					
+					task.execute();
+					Thread.sleep(1000);
 				}
 				catch (Exception e) {
 					logger.error("Failed to execute task.", e);
